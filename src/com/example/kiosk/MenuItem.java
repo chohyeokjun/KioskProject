@@ -17,7 +17,7 @@ public class MenuItem {
     //메서드
 
     //getter
-    public String getGymInfo () {
+    public String getInfo () {
         return  name + " :  " + gymFee + "  |  " + introduction;
     }
     //setter
