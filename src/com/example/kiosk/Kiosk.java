@@ -4,8 +4,12 @@ import javax.swing.*;
 import java.util.*;
 
 public class Kiosk {
-    //Menu
-    Menu menu = new Menu("");
+    //Menu 객체 불러오기
+    private Menu menu;
+
+    public Kiosk (Menu menu) {
+        this.menu = menu;
+    }
     //스캐너 선언
     Scanner sc = new Scanner(System.in);
     //시작 메서드

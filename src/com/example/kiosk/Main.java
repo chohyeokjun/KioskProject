@@ -25,7 +25,7 @@ public class Main {
         pilates.addMenuItem(new MenuItem("진혜정", "1,500,000원", "개인레슨 20회"));
         pilates.addMenuItem(new MenuItem("진혜정", "1,770,000원", "개인레슨 30회"));
         //Kiosk 객체 생성
-        Kiosk kiosk = new Kiosk();
+        Kiosk kiosk = new Kiosk(gymPass);
         //Kiosk 함수 호출
         kiosk.start();
         kiosk.gymList();
