@@ -12,7 +12,6 @@ public class MenuItem {
         this.gymFee = gymFee;
         this.introduction = introduction;
     }
-
     //메서드
 
     //getter
