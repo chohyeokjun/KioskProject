@@ -17,10 +17,6 @@ public class Menu {
         categories.add(this); //생성된 메뉴를 categories에 자동 추가
     }
 
-    //카테고리 추가 메서드
-    public void addCategory(Menu category) {
-        categories.add(category);
-    }
     //메뉴 추가 메서드
     public void addMenuItem(MenuItem menuitem) {
         menuItem.add(menuitem);

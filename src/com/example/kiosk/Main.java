@@ -7,10 +7,10 @@ public class Main {
         Menu personalTraining = new Menu("PT");
         Menu pilates = new Menu("필라테스");
         // Menu 클래스 내 있는 List<MenuItem> 에 MenuItem 객체 생성하면서 삽입
-        gymPass.addMenuItem(new MenuItem("헬스장", "10,000원", "설명1"));
-        gymPass.addMenuItem(new MenuItem("헬스장", "85,000원", "설명2"));
-        gymPass.addMenuItem(new MenuItem("헬스장", "210,000원", "설명3"));
-        gymPass.addMenuItem(new MenuItem("헬스장", "330,000원", "설명4"));
+        gymPass.addMenuItem(new MenuItem("헬스장", "10,000원", "일일권"));
+        gymPass.addMenuItem(new MenuItem("헬스장", "85,000원", "1개월"));
+        gymPass.addMenuItem(new MenuItem("헬스장", "210,000원", "3개월"));
+        gymPass.addMenuItem(new MenuItem("헬스장", "330,000원", "6개월"));
         personalTraining.addMenuItem(new MenuItem("조혁준(원장)", "500,000원", "PT 10회"));
         personalTraining.addMenuItem(new MenuItem("조혁준(원장)", "900,000원", "PT 20회"));
         personalTraining.addMenuItem(new MenuItem("조혁준(원장)", "1,200,000원", "PT 30회"));
@@ -27,5 +27,7 @@ public class Main {
         Kiosk kiosk = new Kiosk(Menu.getCategories());
         //Kiosk 함수 호출
         kiosk.start();
+        //스캐너 닫는 메서드 호출
+        kiosk.closeScanner();
     }
 }
