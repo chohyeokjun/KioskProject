@@ -12,7 +12,6 @@ public class Menu {
     public Menu(String name) {
         this.menuItemList = new ArrayList<>();
         this.name = name;
-
     }
 
     //하위 리스트 추가
@@ -25,6 +24,7 @@ public class Menu {
         return name;
     }
 
+    //깊은 복사? vs 얕은 복사?
     //하위 리스트 반환
     public List<MenuItem> getMenuItemList() {
         return menuItemList;

@@ -3,14 +3,13 @@ package com.example.kiosk;
 public class MenuItem {
     //속성
     private String name;
-    private String gymFee;
+    private int fee;
     private String introduction;
-//    private String timeTabel;
 
     //생성자
-    public MenuItem (String name, String gymFee,String introduction) {
+    public MenuItem (String name, int fee, String introduction) {
         this.name = name;
-        this.gymFee = gymFee;
+        this.fee = fee;
         this.introduction = introduction;
     }
 
@@ -18,7 +17,10 @@ public class MenuItem {
 
     //getter
     public String getInfo () {
-        return  name + " :  " + gymFee + "  |  " + introduction;
+        return  name + " :  " + fee + "원" + "  |  " + introduction;
     }
-    //setter
+    // 총 주문 금액으로 합산을 위한 getter
+    public int getFee () {
+        return fee;
+    }
 }
