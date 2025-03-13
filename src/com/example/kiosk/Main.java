@@ -13,7 +13,7 @@ public class Main {
         gymPass.addList(new MenuItem("헬스장", 330000, "6개월"));
         personalTraining.addList(new MenuItem("조혁준(원장)", 500000, "PT 10회"));
         personalTraining.addList(new MenuItem("조혁준(원장)", 900000, "PT 20회"));
-        personalTraining.addList(new MenuItem("조혁준(원장)",  200000, "PT 30회"));
+        personalTraining.addList(new MenuItem("조혁준(원장)",  1200000, "PT 30회"));
         personalTraining.addList(new MenuItem("임욱호", 400000, "PT 10회"));
         personalTraining.addList(new MenuItem("임욱호", 800000, "PT 20회"));
         personalTraining.addList(new MenuItem("임욱호", 1000000, "PT 30회"));
