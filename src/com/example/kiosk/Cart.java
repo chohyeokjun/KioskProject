@@ -28,7 +28,7 @@ public class Cart {
         cart.clear();
     }
 
-    //장바구니 리스트 삭제
+    //장바구니 리스트 선택 삭제
 //    public void removeCart(int index) {
 //        cart.remove(index);
 //    }

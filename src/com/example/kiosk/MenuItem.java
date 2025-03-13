@@ -17,7 +17,7 @@ public class MenuItem {
 
     //getter
     public String getInfo () {
-        return  name + " :  " + fee + "원" + "  |  " + introduction;
+        return  name + " :  " + String.format("%,d",fee) + "원" + "  |  " + introduction;
     }
     // 총 주문 금액으로 합산을 위한 getter
     public int getFee () {
