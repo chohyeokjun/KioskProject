@@ -1,0 +1,24 @@
+package com.example.kiosk;
+
+public class MenuItem {
+    //속성
+    private String name;
+    private String gymFee;
+    private String introduction;
+//    private String timeTabel;
+
+    //생성자
+    public MenuItem (String name, String gymFee,String introduction) {
+        this.name = name;
+        this.gymFee = gymFee;
+        this.introduction = introduction;
+    }
+
+    //메서드
+
+    //getter
+    public String getInfo () {
+        return  name + " :  " + gymFee + "  |  " + introduction;
+    }
+    //setter
+}
